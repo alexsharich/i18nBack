@@ -1,0 +1,12 @@
+{
+  "name": "i18nBack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "repository": "https://github.com/alexsharich/i18nBack.git",
+  "author": "alexsharich <alexsharich@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
