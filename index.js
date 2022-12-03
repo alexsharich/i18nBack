@@ -16,7 +16,7 @@ app.use(express.json())
 app.post('/auth/register',registerValidation,UserController.register)
 app.post('/auth/login',UserController.login)
 app.get('/auth/me', checkAuth, UserController.getMe)
-app.listen(4444, (err) => {
+app.listen(3001, (err) => {
     if (err) {
         return console.log(err)
     }
